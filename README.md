@@ -50,6 +50,31 @@ L'obiettivo è identificare **quali clienti rischiano di lasciare il servizio** 
 
 ---
 
+## 📊 Visualizzazioni Principali
+
+### 1️⃣ Churn Distribution - Baseline
+![Churn Distribution](visualizations/01_churn_distribution.png)
+**Insight**: 26.5% dei clienti abbandona il servizio - Un problema significativo che richiede azione immediata.
+
+---
+
+### 2️⃣ Churn by Tenure - Critical Early Window
+![Churn by Tenure](visualizations/02_churn_by_tenure.png)
+**Insight**: Il churn è **massimo nei primi 6 mesi** (54% risk), poi cala drasticamente. I nuovi clienti sono il nostro problema principale!
+
+---
+
+### 3️⃣ Churn Rate by Contract Type ⭐ KEY FINDING
+![Churn by Contract](visualizations/03_churn_by_contract.png)
+**Insight**:
+- Month-to-month: **42% churn** 🔴 CRITICO
+- One year: **11% churn** 🟡 Moderato
+- Two year: **3% churn** 🟢 Ideale
+
+**Azione**: Il contract type è il DRIVER #1 di churn. Convertire clienti mensili a contratti annuali può ridurre il churn del 50%+.
+
+---
+
 ## 🎯 Risultati Principali
 
 ### Top Fattori di Churn 🔴
